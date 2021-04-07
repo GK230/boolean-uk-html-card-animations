@@ -120,9 +120,13 @@ main.card .info .occupation h2 {
   font-size: 1rem;
 }
 
+main.card .info .about p {
+  font-size: 0.9rem;
+}
+
 main.card .info .about p:hover {
   font-family: "Dancing Script", cursive;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin-bottom: 3px;
 }
 
