@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+}
+
+.border {
+  background-color: whitesmoke;
+  width: 350px;
+  height: 550px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+main.card {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(21, 17, 26);
+  border-radius: 5px;
+  box-shadow: 10px 10px 8px #888888;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  display: grid;
+  grid-template-rows: 375px 100px;
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+main.card:hover {
+  width: 310px;
+  height: 510px;
+}
+
+main.card .info {
+  display: grid;
+  grid-template-rows: 50px 125px 50px 30px 20px 50px;
+  place-content: center;
+  margin-bottom: 10px;
+  border-bottom: whitesmoke solid 1px;
+}
+
+main.card .info .small-icons {
+  display: grid;
+  grid-template-columns: 30px 100px;
+}
+
+main.card .info .small-icons .arrow {
+  position: absolute;
+  left: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+main.card .info .small-icons .heart-and-menu {
+  display: grid;
+  grid-template-columns: 30px 30px;
+  justify-content: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+main.card .info .small-icons .arrow img.arrow,
+main.card .info .small-icons .heart img.heart,
+main.card .info .small-icons .menu img.menu {
+  width: 20px;
+}
+
+main.card .info .small-icons .heart-and-menu .heart img.heart:hover {
+  width: 50px;
+}
+
+main.card .info .photo img.myphoto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+main.card .info .name h1.my-name,
+main.card .info .occupation h2,
+main.card .info .about p,
+main.card .info .hire-me .button p {
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+main.card .info .name h1.my-name {
+  font-size: 2rem;
+}
+
+main.card .info .occupation h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+main.card .info .about p {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  margin-bottom: 3px;
+}
+
+main.card .info .hire-me {
+  display: grid;
+  grid-template-rows: 50px 30px;
+  place-items: center;
+  padding: 10px;
+}
+
+main.card .info .hire-me .button {
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(131, 28, 45),
+    rgb(173, 132, 139)
+  );
+}
+
+main.card .info .hire-me .button:hover {
+  animation-name: notice-me;
+  animation-duration: 3s;
+}
+
+@keyframes notice-me {
+  25% {
+    width: 175px;
+    height: 45px;
+  }
+
+  100% {
+    width: 250px;
+    height: 70px;
+    font-size: 2.3rem;
+  }
+
+  75% {
+    width: 200px;
+    height: 45px;
+  }
+
+  100% {
+    width: 210px;
+    height: 40px;
+  }
+}
+
+/* SOCIAL ICONS */
+main.card .social {
+  display: grid;
+  grid-template-columns: 75px 75px 75px;
+  place-content: center;
+}
+
+main.card .social a img.github,
+main.card .social a img.linkedin,
+main.card .social a img.youtube {
+  width: 50px;
+  height: 50px;
+  object-fit: center;
+}
+
+main.card .social a img.github:hover {
+  border: white solid 5px;
+  border-radius: 50%;
+}
+
+main.card .social a img.linkedin:hover {
+  border: white solid 5px;
+  border-radius: 50%;
+}
+
+main.card .social a img.youtube:hover {
+  border: white solid 5px;
+  border-radius: 50%;
+}
