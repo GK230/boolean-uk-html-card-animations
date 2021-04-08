@@ -207,15 +207,17 @@ main.card .social a img.youtube:hover {
 .links {
   width: 200px;
   height: 50px;
+  margin: auto;
+  display: grid;
   position: relative;
   top: 40rem;
-  margin: auto;
+  grid-template-rows: 50px 50px;
 }
 
 .links a.light {
   color: whitesmoke;
   text-decoration: none;
   font-size: 1rem;
-  position: absolute;
   font-family: sans-serif;
+  margin: auto;
 }
