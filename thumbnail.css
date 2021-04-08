@@ -11,8 +11,8 @@ body {
 
 .border {
   background-color: whitesmoke;
-  width: 350px;
-  height: 550px;
+  width: 310px;
+  height: 210px;
 
   position: absolute;
   top: 0;
@@ -39,14 +39,14 @@ main.card {
   margin: auto;
 
   display: grid;
-  grid-template-rows: 375px 100px;
+  grid-template-columns: 100px 200px;
   grid-gap: 5px;
   padding: 10px;
 }
 
 main.card:hover {
   width: 310px;
-  height: 510px;
+  height: 210px;
 }
 
 main.card .info {
@@ -175,7 +175,7 @@ main.card .info .hire-me .button:hover {
 }
 
 /* SOCIAL ICONS */
-main.card .social {
+/* main.card .social {
   display: grid;
   grid-template-columns: 75px 75px 75px;
   place-content: center;
@@ -220,4 +220,4 @@ main.card .social a img.youtube:hover {
   font-size: 1rem;
   font-family: sans-serif;
   margin: 5px auto;
-}
+}  */
