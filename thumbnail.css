@@ -5,12 +5,12 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: black;
   height: 100vh;
 }
 
 .border {
-  background-color: darkgray;
+  background-color: whitesmoke;
   width: 350px;
   height: 550px;
 
@@ -25,8 +25,8 @@ body {
 
 main.card {
   width: 300px;
-  height: 500px;
-  background-color: rgb(245, 218, 223);
+  height: 200px;
+  background-color: rgb(24, 17, 34);
   border-radius: 5px;
   box-shadow: 10px 10px 8px #888888;
 
@@ -54,7 +54,7 @@ main.card .info {
   grid-template-rows: 50px 125px 50px 30px 20px 50px;
   place-content: center;
   margin-bottom: 10px;
-  border-bottom: grey solid 1px;
+  border-bottom: whitesmoke solid 1px;
 }
 
 main.card .info .small-icons {
@@ -106,7 +106,7 @@ main.card .info .name h1.my-name,
 main.card .info .occupation h2,
 main.card .info .about p,
 main.card .info .hire-me .button p {
-  color: rgb(95, 94, 94);
+  color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
@@ -146,8 +146,8 @@ main.card .info .hire-me .button {
   border-radius: 30px;
   background-image: linear-gradient(
     to bottom right,
-    rgb(197, 130, 143),
-    rgb(221, 168, 177)
+    rgb(131, 28, 45),
+    rgb(173, 132, 139)
   );
 }
 
@@ -214,8 +214,8 @@ main.card .social a img.youtube:hover {
   grid-template-rows: 50px 50px;
 }
 
-.links a.dark {
-  color: darkslategrey;
+.links a.light {
+  color: whitesmoke;
   text-decoration: none;
   font-size: 1rem;
   font-family: sans-serif;

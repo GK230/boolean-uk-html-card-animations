@@ -210,7 +210,7 @@ main.card .social a img.youtube:hover {
   margin: auto;
   display: grid;
   position: relative;
-  top: 40rem;
+  top: 38rem;
   grid-template-rows: 50px 50px;
 }
 
@@ -219,5 +219,5 @@ main.card .social a img.youtube:hover {
   text-decoration: none;
   font-size: 1rem;
   font-family: sans-serif;
-  margin: auto;
+  margin: 5px auto;
 }
