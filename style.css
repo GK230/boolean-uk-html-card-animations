@@ -158,24 +158,19 @@ main.card .info .hire-me .button:hover {
 
 @keyframes notice-me {
   25% {
-    width: 175px;
-    height: 45px;
-  }
-
-  100% {
-    width: 250px;
-    height: 70px;
-    font-size: 2.3rem;
+    transform: rotate(360deg);
   }
 
   75% {
     width: 200px;
     height: 45px;
+    font-size: 1.2rem;
   }
 
   100% {
     width: 210px;
     height: 40px;
+    font-size: 1.5rem;
   }
 }
 
