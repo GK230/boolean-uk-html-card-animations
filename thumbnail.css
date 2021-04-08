@@ -39,7 +39,7 @@ main.card {
   margin: auto;
 
   display: grid;
-  grid-template-columns: 100px 200px;
+  grid-template-rows: 100px 100px;
   grid-gap: 5px;
   padding: 10px;
 }
@@ -51,10 +51,10 @@ main.card:hover {
 
 main.card .info {
   display: grid;
-  grid-template-rows: 50px 125px 50px 30px 20px 50px;
-  place-content: center;
-  margin-bottom: 10px;
-  border-bottom: whitesmoke solid 1px;
+  grid-template-rows: 100px 100px;
+  place-content: top;
+  /* margin-bottom: 10px; */
+  /* border-bottom: whitesmoke solid 1px; */
 }
 
 main.card .info .small-icons {
@@ -96,10 +96,9 @@ main.card .info .photo img.myphoto {
   border-radius: 50%;
 
   position: absolute;
-  left: 0;
-  right: 0;
-
-  margin: auto;
+  top: 0;
+  padding: 10px;
+  left: 10px;
 }
 
 main.card .info .name h1.my-name,
@@ -108,7 +107,7 @@ main.card .info .about p,
 main.card .info .hire-me .button p {
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  text-align: right;
 }
 
 main.card .info .name h1.my-name {
@@ -174,8 +173,8 @@ main.card .info .hire-me .button:hover {
   }
 }
 
-/* SOCIAL ICONS */
-/* main.card .social {
+/* SOCIAL ICONS  */
+main.card .social {
   display: grid;
   grid-template-columns: 75px 75px 75px;
   place-content: center;
@@ -220,4 +219,4 @@ main.card .social a img.youtube:hover {
   font-size: 1rem;
   font-family: sans-serif;
   margin: 5px auto;
-}  */
+}
